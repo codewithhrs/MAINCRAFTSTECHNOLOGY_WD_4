@@ -1,0 +1,103 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f6f9;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+background:#fff;
+padding:25px;
+border-radius:10px;
+width:400px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+text-align:center;
+margin-bottom:20px;
+}
+
+/* INPUT */
+.input-section{
+display:flex;
+gap:10px;
+margin-bottom:15px;
+}
+
+.input-section input{
+flex:1;
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.input-section button{
+padding:10px;
+background:#0072ff;
+color:white;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+
+/* CONTROLS */
+.controls{
+display:flex;
+gap:10px;
+margin-bottom:15px;
+}
+
+.controls input, .controls select{
+flex:1;
+padding:8px;
+}
+
+/* TASK LIST */
+ul{
+list-style:none;
+}
+
+li{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px;
+border-bottom:1px solid #eee;
+}
+
+.completed{
+text-decoration:line-through;
+color:gray;
+}
+
+/* BUTTONS */
+.task-buttons button{
+margin-left:5px;
+padding:5px 8px;
+border:none;
+cursor:pointer;
+}
+
+.edit{
+background:orange;
+color:white;
+}
+
+.delete{
+background:red;
+color:white;
+}
+
+.complete{
+background:green;
+color:white;
+}
